@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Contacts</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button id="scrollToTopBtn"></button>
+        <header class="header">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__body">
+                        <div class="header__top">
+                            <a href="index.html" class="header__logo">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                            <a href="" class="header__burger">
+                                <span></span><span></span><span></span>
+                            </a>
+                        </div>
+                        <div class="header__row" data-da="bottom-header, 0, 767.98">
+                            <div class="header__search search-header">
+                                <form action="" class="search-header__form form-search-header">
+                                    <a href="" class="form-search-header__icon">
+                                        <img src="img/icons/search.svg" alt="search-icon">
+                                    </a>
+                                    <input autocomplete='off' type='text' placeholder="SEARCH" name='form[]'
+                                        class='form-search-header__input'>
+                                </form>
+                            </div>
+                            <nav class="header__menu menu-header">
+                                <ul class="menu-header__list">
+                                    <li class="menu-header__item">
+                                        <a href="index.html" class="menu-header__link">Home</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="about.html" class="menu-header__link">About us</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link">Products</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link">Info</a>
+                                        <ul class="submenu-header__list">
+                                            <li class="submenu-header__item">
+                                                <a href="choosing_backpack.html" class="submenu-header__link">Choosing a
+                                                    backpack</a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="directions_for_use.html" class="submenu-header__link">
+                                                    Directions for Use of Kite backpacks and bags
+                                                </a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="igr.html" class="submenu-header__link">IGR Certificate</a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="faq.html" class="submenu-header__link">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="catalogues.html" class="menu-header__link">Catalogues</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link active">Contacts</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom bottom-header"></div>
+        </header>
+        <main class="contacts">
+            <div class="contacts__container container">
+                <div class="catalogues__body">
+                    <div class="contacts__breadcrumbs breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Home page</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <span>Contact Us</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2 class="contacts__title title">Contact Us</h2>
+                    <div class="contacts__info info-contacts">
+                        <div class="info-contacts__content">
+                            <div class="info-contacts__item">
+                                <span class="info-contacts__label">Address:</span>
+                                <span class="info-contacts__text">Germany</span>
+                            </div>
+                            <div class="info-contacts__item">
+                                <span class="info-contacts__label">Site:</span>
+                                <a href="" class="info-contacts__link">mykite.com.de</a>
+                            </div>
+                            <div class="info-contacts__item">
+                                <span class="info-contacts__label">E-mail:</span>
+                                <a href="mailto:" class="info-contacts__link">mykite.tm@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-contacts__map">
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                    <form action="#" class="contacts__form form-contacts">
+                        <div class="form-contacts__title">Contact Form</div>
+                        <div class="form-contacts__info">* All fields are required</div>
+                        <div class="form-contacts__body">
+                            <div class="form-contacts__inputs">
+                                <div class="form-contacts__column">
+                                    <div class="form-contacts__item">
+                                        <label for="formName" class="form-contacts__label">Your Name*</label>
+                                        <input id="formName" autocomplete='off' placeholder="Your Name" type='text'
+                                            name='name' class='form-contacts__input req'>
+                                    </div>
+                                    <div class="form-contacts__item">
+                                        <label for="formTel" class="form-contacts__label">Telephone*</label>
+                                        <input id="formTel" autocomplete='off' placeholder="+38 (___) - ___ - __-__"
+                                            type='tel' name='tel'
+                                            class='form-contacts__input form-contacts__input_tel req'>
+                                    </div>
+                                    <div class="form-contacts__item">
+                                        <label for="formEmail" class="form-contacts__label">E-Mail*</label>
+                                        <input id="formEmail" autocomplete='off' placeholder="example@gmail.com"
+                                            type='email' name='email' class='form-contacts__input req'>
+                                    </div>
+                                    <div class="form-contacts__item">
+                                        <label for="formCity" class="form-contacts__label">City*</label>
+                                        <input id="formCity" autocomplete='off' placeholder="City" type='text'
+                                            name='city' class='form-contacts__input req'>
+                                    </div>
+                                </div>
+                                <div class="form-contacts__column">
+                                    <div class="form-contacts__item">
+                                        <label for="formMessage" class="form-contacts__label">Message subject</label>
+                                        <input id="formMessage" autocomplete='off' placeholder="Message subject"
+                                            type='text' name='message' class='form-contacts__input'>
+                                    </div>
+                                    <div class="form-contacts__item form-contacts__item_textarea">
+                                        <label for="formQuestion" class="form-contacts__label">Your question or
+                                            message</label>
+                                        <textarea name="question" id="formQuestion"
+                                            placeholder="Your question or message"
+                                            class="form-contacts__input form-contacts__input_textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-contacts__file">
+                                <div class="form__item">
+                                    <div class="file">
+                                        <div class="file__item">
+                                            <div for="formFile" class="file__button">Attachment</div>
+                                            <input id="formFile" type='file' name='file' class='file__input'>
+                                            <div class="file__preview"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-contacts__agreement">
+                                <div class="form__item">
+                                    <div class="agreement">
+                                        <input id="formAgreement" type='checkbox' name='agreement'
+                                            class='agreement__input'>
+                                        <label for="formAgreement" class="agreement__label">
+                                            <span>
+                                                I confirm that I have
+                                                read the <a href="">Privacy Policy</a>. I consent to the processing of
+                                                personal data, and I am notified about the ownership of personal data,
+                                                the composition and content of the collected personal data, my rights,
+                                                the purpose of collecting personal data and Person to whom personal data
+                                                is transmitted.
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-contacts__bottom">
+                                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                                <button type='submit' class='form-contacts__button'>Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__main">
+        <div class="footer__container container">
+            <div class="footer__body">
+                <a href="" class="footer__logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="footer__bottom">
+                    <a href="" class="footer__site-map">Site Map</a>
+                    <nav class="footer__menu menu-footer">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Home</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">About us</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Products</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Info</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Contacts</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Terms of Use</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="faq.html" class="menu-footer__link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="" class="footer__address">
+                        The Republic of Poland,<br>
+                        Blonie, Sovinskiego Street, 17<br>
+                        05-870
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright copyright-footer">
+        <div class="copyright-footer__container container">
+            <div class="copyright-footer__body">© 2023 HANDY GOODS</div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

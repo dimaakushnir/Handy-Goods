@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Product Card</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button id="scrollToTopBtn"></button>
+        <div class="popup__video-products popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">×</a>
+                    <div class="popup__item">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__main">
+                <div class="header__container container">
+                    <div class="header__body">
+                        <div class="header__top">
+                            <a href="index.html" class="header__logo">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                            <a href="" class="header__burger">
+                                <span></span><span></span><span></span>
+                            </a>
+                        </div>
+                        <div class="header__row" data-da="bottom-header, 0, 767.98">
+                            <div class="header__search search-header">
+                                <form action="" class="search-header__form form-search-header">
+                                    <a href="" class="form-search-header__icon">
+                                        <img src="img/icons/search.svg" alt="search-icon">
+                                    </a>
+                                    <input autocomplete='off' type='text' placeholder="SEARCH" name='form[]'
+                                        class='form-search-header__input'>
+                                </form>
+                            </div>
+                            <nav class="header__menu menu-header">
+                                <ul class="menu-header__list">
+                                    <li class="menu-header__item">
+                                        <a href="index.html" class="menu-header__link">Home</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="about.html" class="menu-header__link">About us</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link active">Products</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link">Info</a>
+                                        <ul class="submenu-header__list">
+                                            <li class="submenu-header__item">
+                                                <a href="choosing_backpack.html" class="submenu-header__link">Choosing a
+                                                    backpack</a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="directions_for_use.html" class="submenu-header__link">
+                                                    Directions for Use of Kite backpacks and bags
+                                                </a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="igr.html" class="submenu-header__link">IGR Certificate</a>
+                                            </li>
+                                            <li class="submenu-header__item">
+                                                <a href="faq.html" class="submenu-header__link">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="catalogues.html" class="menu-header__link">Catalogues</a>
+                                    </li>
+                                    <li class="menu-header__item">
+                                        <a href="" class="menu-header__link">Contacts</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom bottom-header"></div>
+        </header>
+        <main class="product-card">
+            <div class="product-card__container container">
+                <div class="product-card__body">
+                    <div class="product-card__breadcrumbs breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Home page</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Products</a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Backpacks</a>
+                            </li>
+                            <li class="breadcrumbs__item"><span>School set Wonder Kite Butterfly SET_WK22-583S-1</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-card__top top-product-card">
+                        <div class="top-product-card__message message-card">
+                            <div class="message-card__add message-card__action  add-message-card">
+                                <div class="add-message-card__text message-card__text">
+                                    You have added <span class="add-message-card__name message-card__name"></span> to
+                                    your <a href="">product comparison!</a>
+                                </div>
+                                <a href="" class="add-message-card__close message-card__close">×</a>
+                            </div>
+                            <div class="message-card__remove message-card__action remove-message-card">
+                                <div class="remove-message-card__text message-card__text">
+                                    Removed from comparison list.
+                                </div>
+                                <a href="" class="remove-message-card__close message-card__close">×</a>
+                            </div>
+                        </div>
+                        <a href="products_backpacks.html" class="top-product-card__link-back">
+                            <img src="img/icons/arrow.svg" alt="arrow-back">
+                        </a>
+                    </div>
+                    <div class="product-card__main-content">
+                        <div class="card">
+                            <div class="card__row">
+                                <div class="card__column card__column2">
+                                    <div class="card__images">
+                                        <div class="card__swiper1 swiper">
+                                            <div class="card__wrapper1 swiper-wrapper">
+                                                <div class="card__slide card__slide1 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/01.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide1 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/02.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide1 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/03.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide1 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/04.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide1 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/05.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card__swiper2 swiper">
+                                            <div class="card__wrapper swiper-wrapper">
+                                                <div class="card__slide card__slide2 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/01.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide2 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/02.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide2 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/03.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide2 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/04.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card__slide card__slide2 slide-card swiper-slide">
+                                                    <div class="slide-card__item">
+                                                        <div class="slide-card__image">
+                                                            <img src="img/product-cards/card-1/05.jpg"
+                                                                alt="product img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slide-card__top top-slide-card">
+                                                <div class="top-slide-card__icons">
+                                                    <a href="" class="top-slide-card__360">
+                                                        <img src="img/products/icons/360.svg" alt="360 icon">
+                                                    </a>
+                                                    <a href="" class="top-item-products__video" data-video='<iframe id="ytplayer" frameborder="0" allowfullscreen="1"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        title="Словник для запису іноземних слів Kite | Відеоогляд словника  | Kite Official"
+                                                        src="https://www.youtube.com/embed/0Pa1rKlpZnw?enablejsapi=1&amp;origin=https%3A%2F%2Fmykite.com.de&amp;widgetid=1"
+                                                        data-gtm-yt-inspected-6="true"></iframe>'>
+                                                        <img src="img/products/icons/video.svg" alt="video-icon">
+                                                    </a>
+                                                </div>
+                                                <div class="top-item-products__label top-item-products__label_new">
+                                                    New
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="card__swiper-button card__swiper-button_next swiper-button-next">
+                                            </div>
+                                            <div
+                                                class="card__swiper-button card__swiper-button_prev swiper-button-prev">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__column">
+                                    <div class="card__content content-card">
+                                        <div class="content-card__name">
+                                            School set Wonder Kite Butterfly SET_WK22-583S-1
+                                        </div>
+                                        <div class="content-card__model">SET_WK22-583S-1</div>
+                                        <div class="content-card__compare compare-content-card">
+                                            <div class="content-card__stars stars-content-card">
+                                                <ul class="stars-content-card__list">
+                                                    <li class="stars-content-card__item stars-content-card__full"></li>
+                                                    <li class="stars-content-card__item stars-content-card__full"></li>
+                                                    <li class="stars-content-card__item stars-content-card__full"></li>
+                                                    <li class="stars-content-card__item stars-content-card__full"></li>
+                                                    <li class="stars-content-card__item stars-content-card__full"></li>
+                                                </ul>
+                                                <div class="stars-content-card__number">5</div>
+                                            </div>
+                                            <div class="compare-content-card__block">
+                                                <label
+                                                    class="compare-content-card__checkbox  checkbox-compare-content-card">
+                                                    <input type="checkbox" name="form[]"
+                                                        class="checkbox-compare-content-card__input" value="1">
+                                                    <span class="checkbox-compare-content-card__text">Compare this
+                                                        Product</span>
+                                                </label>
+                                                <a href="comparison.html" class="compare-content-card__link">Compare
+                                                    list</a>
+                                            </div>
+                                        </div>
+                                        <div class="content-card__slider" data-da="card__column2, 3, 991.98">
+                                            <div class="content-card__button-block">
+                                                <div class="content-card__button content-card__button_prev">
+                                                </div>
+                                                <div class="content-card__button content-card__button_next">
+                                                </div>
+                                            </div>
+                                            <div class="content-card__swiper swiper">
+                                                <div class="content-card__wrapper swiper-wrapper">
+                                                    <div class="content-card__slide slide-content-card swiper-slide">
+                                                        <div class="slide-content-card__item">
+                                                            <a href="" class="slide-content-card__img">
+                                                                <img src="img/product-cards/card-2/01.jpg"
+                                                                    alt="product img">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-card__slide slide-content-card swiper-slide">
+                                                        <div class="slide-content-card__item">
+                                                            <a href="" class="slide-content-card__img">
+                                                                <img src="img/product-cards/card-3/01.jpg"
+                                                                    alt="product img">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-card__slide slide-content-card swiper-slide">
+                                                        <div class="slide-content-card__item">
+                                                            <a href="" class="slide-content-card__img">
+                                                                <img src="img/product-cards/card-4/01.jpg"
+                                                                    alt="product img">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-card__slide slide-content-card swiper-slide">
+                                                        <div class="slide-content-card__item">
+                                                            <a href="" class="slide-content-card__img">
+                                                                <img src="img/product-cards/card-2/01.jpg"
+                                                                    alt="product img">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-card__info info-content-card">
+                                                <div class="info-content-card__items">
+                                                    <div
+                                                        class="info-content-card__item info-content-card__item_material">
+                                                        <div class="info-content-card__name">Material</div>
+                                                        <div class="info-content-card__value">Polyester</div>
+                                                    </div>
+                                                    <div class="info-content-card__item info-content-card__item_size">
+                                                        <div class="info-content-card__name">Size, cm</div>
+                                                        <div class="info-content-card__value">34x28x17</div>
+                                                    </div>
+                                                    <div class="info-content-card__item info-content-card__item_weight">
+                                                        <div class="info-content-card__name">Weight, g</div>
+                                                        <div class="info-content-card__value">942</div>
+                                                    </div>
+                                                    <div class="info-content-card__item info-content-card__item_volume">
+                                                        <div class="info-content-card__name">Vilume, l</div>
+                                                        <div class="info-content-card__value">10.5</div>
+                                                    </div>
+                                                    <div
+                                                        class="info-content-card__item info-content-card__item_product-group">
+                                                        <div class="info-content-card__name">Product group</div>
+                                                        <div class="info-content-card__value">Primary school backpacks
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="product-card__tabs tabs">
+                            <nav class="tabs__items">
+                                <a href="" class="tabs__item tabs__item_description active"
+                                    data-tabs="descriotion-block">Description</a>
+                                <a href="" class="tabs__item tabs__item_reviews" data-tabs="reviews-block">Reviews
+                                    (<span class="tabs__item_reviews-number">0</span>)</a>
+                            </nav>
+                            <div class="tabs__body">
+                                <div class="tabs__block tabs__block_description descriotion-block active">
+                                    <p>
+                                        Wonder Kite School SET_WK22-583S-1 includes 3 most important school items –
+                                        backpack, pencil case and shoe bag. They designed in one single color palette
+                                        and together make a perfect match with each other. This stylish capsule set
+                                        combines premium quality, advanced functionality and trendy design.
+                                    </p>
+                                    <p>
+                                        Wonder Kite line has already become a favorite one for kids and their parents.
+                                        The VIP 3-in-1 Set will save your time during school preparations and will give
+                                        your child maximum of comfort.
+                                    </p>
+                                    <p>
+                                        <span class="descriotion-block__title">1. School backpack Kite
+                                            SET_WK22-583S-1</span> is a semi-hard-shaped model made of durable
+                                        polyester. This orthopedic model provides comfort for the child and maintains
+                                        the correct posture.
+                                    </p>
+                                    <p>
+                                        This model is approved by the German Institute of Health and Ergonomics IGR and
+                                        it is developed considering the age of the children and their physical
+                                        characteristics. It is recommended for kids aged 6-8 years old with a height of
+                                        115-130 cm. The backpack opens and closes in just one movement. The FIDLOCK
+                                        magnetic lock closes itself when the upper panel goes down, which really saves
+                                        time.
+                                    </p>
+                                    <p class="descriotion-block__title">
+                                        Kite SET_WK22-583S-1 backpack outside:
+                                    </p>
+                                    <ul class="descriotion-block__list">
+                                        <li class="descriotion-block__item">
+                                            has orthopedic Ergo Back with soft breathable pads which repeat the natural
+                                            curves of the back;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has soft breathable S-shaped shoulder straps which reduce the load on
+                                            shoulders;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a removable chest strap that fixes the straps in the comfortable
+                                            position and distributes the weight properly;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a removable waist strap that provides additional support and reduces the
+                                            load;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a convenient FIDLOCK magnetic lock which easily fastens in one movement;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has 2 side pockets with zippers for a water bottle or a thermos;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has 2 side pockets for small items;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has an ergonomic handle with plastic insert for carrying;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a textile loop handle;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a padded rubbered PU bottom with plastic legs - it is stable and easy to
+                                            clean;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has light-reflecting elements from all sides to make the child visible on
+                                            the road when it is dark outside;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has durable secure fittings such as smoothly working zippers and nice-touch
+                                            pullers with rubber coating;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            it is decorated with print, butterfly embroidery, a handmade bauble
+                                            bracelet, a strap with a metal half-ring where a key chain can be attached,
+                                            3D Wonder Kite rubber badge.
+                                        </li>
+                                    </ul>
+                                    <p class="descriotion-block__title">
+                                        Kite SET_WK22-583S-1 backpack inside:
+                                    </p>
+                                    <ul class="descriotion-block__list">
+                                        <li class="descriotion-block__item">
+                                            has 1 spacious compartment;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a large capacity front pocket with removable key chain inside;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a special inner dividing system with elastic fixing band for books and
+                                            notebooks;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a tablet pocket with soft plush inside;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a phone pocket with soft plush to protect the screen from scratches;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has inside pocket for small items;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a transparent pocket with a paper insert for timetable;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a special tag for personal information;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has icons telling the purpose of each pocket for an easy navigation.
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            has a durable branded lining.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <span class="descriotion-block__title">2. Kite textile shoe bag</span> is a
+                                        convenient accessory for your second pair of shoes or clothes. It closes with a
+                                        drawstring from both sides and turns into a mini backpack that can be carried on
+                                        the back. It fits in your pocket when folded.
+                                    </p>
+                                    <p>
+                                        Durable wear-resistant polyester withstands the loads while the print is
+                                        fade-resistant. This shoe bag for PE lesson is easy to wash with your hands,
+                                        dries quickly and retains its original appearance for a long time.
+                                    </p>
+                                    <p class="descriotion-block__title">
+                                        Shoe bag characteristics:
+                                    </p>
+                                    <ul class="descriotion-block__list">
+                                        <li class="descriotion-block__item">
+                                            1 compartment;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            1 spacious front pocket with zipper;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            a loop for a hanger;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            drawstring closure;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            is made of polyester;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            size: 46x33cm;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            is decorated with print, embroidery, 3D rubber badge with logo.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <span class="descriotion-block__title">3. Kite hard-shaped pencil case</span>
+                                        will help your child to stay organized. During the lessons, kids not only write
+                                        but also paint, cut and draw. This pencil case with big capacity and 2 flaps
+                                        fits the entire set of basic stationary for every day.
+                                    </p>
+                                    <p class="descriotion-block__title">
+                                        Pencil case characteristics:
+                                    </p>
+                                    <ul class="descriotion-block__list">
+                                        <li class="descriotion-block__item">
+                                            1 compartment with 2 flaps to keep all the necessary items close at hand;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            elastic strap holders for stationary - to keep the pencil case tidy;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            fabric binding to protect the edges;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            size: 19,5x13x3,7cm;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            two transparent pockets with cardboard tabs (school schedule and
+                                            multiplication table);
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            a tab with the multiplication table will help you to remember it better;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            made of durable polyester from outside;
+                                        </li>
+                                        <li class="descriotion-block__item">
+                                            PVC material inside.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tabs__block tabs__block_reviews reviews-block">
+                                    <div class="reviews-block__no-reviews">
+                                        <span>There are no reviews for this product</span><br>
+                                        <span>Write a review</span>
+                                    </div>
+                                    <div class="reviews-block__adds-review adds-reviews">
+                                    </div>
+                                    <form action="" class="reviews-block__form form-reviews">
+                                        <div class="form-reviews__item">
+                                            <label for="formReviewsName" class="form-reviews__label">Your
+                                                Name</label>
+                                            <input id="formReviewsName" autocomplete='off' type='text' name='name'
+                                                class='form-reviews__input form-reviews__input_name'>
+                                        </div>
+                                        <div class="form-reviews__item">
+                                            <label for="formReview" class="form-reviews__label">Your Review</label>
+                                            <textarea name="question" id="formReview"
+                                                class="form-reviews__input form-reviews__input_textarea"></textarea>
+                                        </div>
+                                        <div class="form-reviews__stars stars-form-reviews">
+                                            <label class="stars-form-reviews__label">Rating</label>
+                                            <div class="stars-form-reviews__items">
+                                                <div class="stars-form-reviews__new-stars new-stars">
+                                                    <div class="new-stars__rating">
+                                                        <span class="star">&#9733;</span>
+                                                        <span class="star">&#9733;</span>
+                                                        <span class="star">&#9733;</span>
+                                                        <span class="star">&#9733;</span>
+                                                        <span class="star">&#9733;</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                                        <button type='submit' class='form-reviews__btn'>Send Feedback</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="related">
+                            <div class="related__title-block">
+                                <h2 class="related__title title">Related products</h2>
+                                <div class="related__buttons">
+                                    <div class="related__button related__button_prev swiper-button-prev"></div>
+                                    <div class="related__button related__button_next swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <div class="related__slider">
+                                <div class="related__swiper swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="related__slide slide-related swiper-slide">
+                                            <div class="slide-related__item">
+                                                <a href="" class="slide-related__image image-slide-related">
+                                                    <img class="image-slide-related__img image-slide-related__img_standart"
+                                                        src="img/related/01.jpg" alt="notebook">
+                                                    <img class="image-slide-related__img image-slide-related__img_hover"
+                                                        src="img/related/01-hover.jpg" alt="notebook">
+                                                </a>
+                                                <a href="" class="slide-related__name">
+                                                    Notebook platic double cover Kite Sorry cat K22-460-2, A5+, 40
+                                                    sheets
+                                                </a>
+                                                <div class="slide-related__stars stars-related">
+                                                    <ul class="stars-related__list">
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="related__slide slide-related swiper-slide">
+                                            <div class="slide-related__item">
+                                                <a href="" class="slide-related__image image-slide-related">
+                                                    <img class="image-slide-related__img image-slide-related__img_standart"
+                                                        src="img/related/02.jpg" alt="notebook">
+                                                    <img class="image-slide-related__img image-slide-related__img_hover"
+                                                        src="img/related/02-hover.jpg" alt="notebook">
+                                                </a>
+                                                <a href="" class="slide-related__name">
+                                                    Notebook platic double cover Kite Bread cat K22-460-4, A5+, 40
+                                                    sheets Lorem ipsum dolor sit amet.
+                                                </a>
+                                                <div class="slide-related__stars stars-related">
+                                                    <ul class="stars-related__list">
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                        <li class="stars-related__item stars-related__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="viewed">
+                            <div class="viewed__title-block">
+                                <h2 class="viewed__title title">Viewed</h2>
+                                <div class="viewed__buttons">
+                                    <div class="viewed__button viewed__button_prev swiper-button-prev"></div>
+                                    <div class="viewed__button viewed__button_next swiper-button-next"></div>
+                                </div>
+                            </div>
+                            <div class="viewed__slider">
+                                <div class="viewed__swiper swiper">
+                                    <div class="viewed__wrapper swiper-wrapper">
+                                        <div class="viewed__slide slide-viewed swiper-slide">
+                                            <div class="slide-viewed__item">
+                                                <div class="slide-card__top top-slide-card">
+                                                    <div class="top-slide-card__icons">
+                                                        <a href="" class="top-slide-card__360">
+                                                            <img src="img/products/icons/360.svg" alt="360 icon">
+                                                        </a>
+                                                        <a href="" class="top-item-products__video" data-video='<iframe id="ytplayer" frameborder="0" allowfullscreen="1"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            title="Словник для запису іноземних слів Kite | Відеоогляд словника  | Kite Official"
+                                                            src="https://www.youtube.com/embed/0Pa1rKlpZnw?enablejsapi=1&amp;origin=https%3A%2F%2Fmykite.com.de&amp;widgetid=1"
+                                                            data-gtm-yt-inspected-6="true"></iframe>'>
+                                                            <img src="img/products/icons/video.svg" alt="video-icon">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="slide-viewed__image image-slide-viewed">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_standart"
+                                                        src="img/products/backpacks/01.jpg" alt="backpack">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_hover"
+                                                        src="img/products/backpacks/01-hover.jpg" alt="backpack">
+                                                </a>
+                                                <div class="slide-viewed__content">
+                                                    <a href="" class="slide-viewed__name">
+                                                        School set Wonder Kite Butterfly SET_WK22-583S-1
+                                                    </a>
+                                                    <div class="slide-viewed__stars stars-viewed">
+                                                        <ul class="stars-viewed__list">
+                                                            <li class="stars-viewed__item stars-viewed__item_full">
+                                                            </li>
+                                                            <li class="stars-viewed__item stars-viewed__item_full">
+                                                            </li>
+                                                            <li class="stars-viewed__item stars-viewed__item_full">
+                                                            </li>
+                                                            <li class="stars-viewed__item stars-viewed__item_full">
+                                                            </li>
+                                                            <li class="stars-viewed__item stars-viewed__item_full">
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="viewed__slide slide-viewed swiper-slide">
+                                            <div class="slide-viewed__item">
+                                                <div class="slide-card__top top-slide-card">
+                                                    <div class="top-slide-card__icons">
+                                                        <a href="" class="top-slide-card__360">
+                                                            <img src="img/products/icons/360.svg" alt="360 icon">
+                                                        </a>
+                                                        <a href="" class="top-item-products__video" data-video='<iframe id="ytplayer" frameborder="0" allowfullscreen="1"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                            title="Словник для запису іноземних слів Kite | Відеоогляд словника  | Kite Official"
+                                                            src="https://www.youtube.com/embed/0Pa1rKlpZnw?enablejsapi=1&amp;origin=https%3A%2F%2Fmykite.com.de&amp;widgetid=1"
+                                                            data-gtm-yt-inspected-6="true"></iframe>'>
+                                                            <img src="img/products/icons/video.svg" alt="video-icon">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <a href="" class="slide-viewed__image image-slide-viewed">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_standart"
+                                                        src="img/products/backpacks/05.jpg" alt="backpack">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_hover"
+                                                        src="img/products/backpacks/05-hover.jpg" alt="backpack">
+                                                </a>
+                                                <a href="" class="slide-viewed__name">
+                                                    School set Wonder Kite Pur-r-rfect SET_WK22-724S-3
+                                                </a>
+                                                <div class="slide-viewed__stars stars-viewed">
+                                                    <ul class="stars-viewed__list">
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="viewed__slide slide-viewed swiper-slide">
+                                            <div class="slide-viewed__item">
+                                                <a href="" class="slide-viewed__image image-slide-viewed">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_standart"
+                                                        src="img/related/01.jpg" alt="notebook">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_hover"
+                                                        src="img/related/01-hover.jpg" alt="notebook">
+                                                </a>
+                                                <a href="" class="slide-viewed__name">
+                                                    Notebook platic double cover Kite Sorry cat K22-460-2, A5+, 40
+                                                    sheets
+                                                </a>
+                                                <div class="slide-viewed__stars stars-viewed">
+                                                    <ul class="stars-viewed__list">
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="viewed__slide slide-viewed swiper-slide">
+                                            <div class="slide-viewed__item">
+                                                <a href="" class="slide-viewed__image image-slide-viewed">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_standart"
+                                                        src="img/related/02.jpg" alt="backpack">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_hover"
+                                                        src="img/related/02-hover.jpg" alt="backpack">
+                                                </a>
+                                                <a href="" class="slide-viewed__name">
+                                                    Notebook platic double cover Kite Bread cat K22-460-4, A5+, 40
+                                                    sheets
+                                                </a>
+                                                <div class="slide-viewed__stars stars-viewed">
+                                                    <ul class="stars-viewed__list">
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="viewed__slide slide-viewed swiper-slide">
+                                            <div class="slide-viewed__item">
+                                                <a href="" class="slide-viewed__image image-slide-viewed">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_standart"
+                                                        src="img/products/backpacks/02.jpg" alt="notebook">
+                                                    <img class="image-slide-viewed__img image-slide-viewed__img_hover"
+                                                        src="img/products/backpacks/02-hover.jpg" alt="notebook">
+                                                </a>
+                                                <a href="" class="slide-viewed__name">
+                                                    School set Wonder Kite Kitty SET_WK22-583S-3
+                                                </a>
+                                                <div class="slide-viewed__stars stars-viewed">
+                                                    <ul class="stars-viewed__list">
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                        <li class="stars-viewed__item stars-viewed__item_empty">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__main">
+        <div class="footer__container container">
+            <div class="footer__body">
+                <a href="" class="footer__logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="footer__bottom">
+                    <a href="" class="footer__site-map">Site Map</a>
+                    <nav class="footer__menu menu-footer">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Home</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">About us</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Products</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Info</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Contacts</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Terms of Use</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="faq.html" class="menu-footer__link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="" class="footer__address">
+                        The Republic of Poland,<br>
+                        Blonie, Sovinskiego Street, 17<br>
+                        05-870
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright copyright-footer">
+        <div class="copyright-footer__container container">
+            <div class="copyright-footer__body">© 2023 HANDY GOODS</div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
