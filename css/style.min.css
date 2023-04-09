@@ -4175,6 +4175,61 @@ body.lock {
   display: flex;
   font-size: 0;
 }
+.message-card__maximum {
+  display: none;
+  justify-content: space-between;
+  background-color: rgb(255, 194, 194);
+  color: rgb(255, 14, 14);
+  border-color: #d6e9c6;
+  padding: 15px;
+}
+.message-card__maximum.active {
+  display: flex;
+}
+
+.maximum-message-card__text {
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.maximum-message-card__text a {
+  display: inline-block;
+  color: #3c763d;
+  margin: 0 0 0 4px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.maximum-message-card__text a:hover {
+  text-decoration: underline;
+}
+.maximum-message-card__text::before {
+  display: inline-block;
+  content: "";
+  width: 16.5px;
+  height: 16.5px;
+  border-radius: 50%;
+  background: url("../img/icons/error.svg") center no-repeat;
+  background-size: cover;
+  margin: 0px 5px 0 0;
+  transform: translate(0, 3px);
+}
+@media (max-width: 767.98px) {
+  .maximum-message-card__text::before {
+    transform: translate(0, 4px);
+    margin: 0 3px 0 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .maximum-message-card__text {
+    font-size: 14px;
+  }
+}
+.maximum-message-card__close {
+  color: rgb(255, 14, 14);
+}
 
 .card {
   margin: 0 0 30px 0;
@@ -5674,8 +5729,15 @@ body.lock {
   line-height: 1.2;
   color: #424f59;
 }
+.comparison__no-product.active {
+  display: block;
+}
 .comparison__block {
+  display: none;
   overflow-x: auto;
+}
+.comparison__block.active {
+  display: block;
 }
 .table-comparison {
   border: 1px solid #ddd;
