@@ -3239,6 +3239,17 @@ body.lock {
     font-size: 13px;
   }
 }
+.checkbox-section-filter__value_color {
+  font-size: 0;
+  line-height: 0;
+}
+.checkbox-section-filter__value_color::before {
+  background-color: transparent;
+  border: solid 1px transparent !important;
+}
+.checkbox-section-filter__value_color::after {
+  background-color: transparent !important;
+}
 .checkbox-section-filter__number {
   display: -webkit-box;
   display: -moz-box;
